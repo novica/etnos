@@ -35,10 +35,21 @@ a.active {
 }
 
 a {
-    color: #000000;
+    color: #fed136;
 }
 
 a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fec503;
+}
+
+#whoarewe a {
+    color: #000;
+}
+
+#whoarewe a:hover,
 a:focus,
 a:active,
 a.active {
@@ -177,6 +188,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
+    text-shadow: 0 0 4px #000;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -864,4 +876,11 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.fa-stack {
+    margin-bottom: 16px;
+}
+.intro-text {
+    text-shadow: 0 0 4px #888;
 }
